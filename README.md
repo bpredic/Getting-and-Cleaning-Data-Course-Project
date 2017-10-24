@@ -1,5 +1,5 @@
 # Assignment for Getting and Cleaning Data Course
-In order to demonstrate data cleaning skills in this assignment data from ["Human Activity Recognition Using Smartphones" data set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) was used.
+In order to demonstrate data cleaning skills in this assignment, data from ["Human Activity Recognition Using Smartphones" data set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) was used.
 
 ### In order to successfully run the submitted R script following steps must be taken
 - R script file (run_analysis.R) must be copied in the working directory
