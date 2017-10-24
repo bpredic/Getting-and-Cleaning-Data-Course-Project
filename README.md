@@ -11,6 +11,6 @@ In order to demonstrate data cleaning skills in this assignment, data from ["Hum
 -- Files listed above are the only files from the data set that are used for this assignment. Data set archive contains other files that are not used.
 - Script (*run_analysis.R*) uses __reshape2__ package to be installed. The script loads that library in the first line.
 
-When script successfully completes execution a tidy data set is saved in CSV formatted file *tidy_dataset.csv* (resulting file is included in this repository).
+When script successfully completes execution a tidy data set is saved in a TXT formatted file *tidy_dataset.txt* (resulting file is included in this repository).
 
 Script internals are explained in detail in [CodeBook](CodeBook.md)
