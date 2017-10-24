@@ -20,7 +20,7 @@ Processing is done in 5 consecutive steps according to instructions for this ass
 -- Features values table (variable `x_data`), activity labels table (variable `y_data`) and subject identifiers (variable `subject_data`) are merged by columns using function __cbind__ into variable `complete_data`.
 -- Merged data in variable `complete_data` is melted (using function __melt__) into narrow table by columns *subject_id* and *activity* and saved in variable `narrow_table` 
 -- Function __dcast__ is used on table `narrow_table` to summarize data per *subject_id* and *activity* applying __mean__ function for each of the features (in column *variable* in table `narrow_table`). Summarized data is saved in variable `final_summarized` 
--- Finally, data from table `final_summarized` is exported to CSV file *tidy_dataset.csv* using function __write.csv__. Row names are intentionally excluded.
+-- Finally, data from table `final_summarized` is exported to a .txt file *tidy_dataset.txt* using function __write.table__. Row names are intentionally excluded.
 
 
 
